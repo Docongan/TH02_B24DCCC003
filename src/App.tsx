@@ -18,7 +18,7 @@ export default function Trangchu() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<h2>Đang ở trang chủ TH02_B24DCCC165</h2>} />
+        <Route path="/" element={<h2>Đang ở trang chủ</h2>} />
         <Route path="/bai1" element={<WeatherApp />} />
         <Route path="/bai2" element={<StudentList />} />
         <Route path="/bai2/:id" element={<StudentDetail />} />
